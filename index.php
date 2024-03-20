@@ -1,4 +1,5 @@
-<?php include 'partials/header.php'; 
+<?php 
+	include 'partials/header.php'; 
 ?>
 		<article>
 			<header class="post-header">
@@ -13,10 +14,10 @@
 
 					<ul class="menu controls">
 						<li data-from="left" class="selected"><a href="#vsetko">Všetko</a></li>
-						<li data-from="right"><a href="partials/web.html">Web</a></li>
-						<li data-from="left"><a href="partials/branding.html">Branding</a></li>
-						<li data-from="right"><a href="partials/fotografia.html">Fotografia</a></li>
-						<li data-from="left"><a href="partials/video.html">Video</a></li>
+						<li data-from="right"><a href="partials/web.php">Web</a></li>
+						<li data-from="left"><a href="partials/branding.php">Branding</a></li>
+						<li data-from="right"><a href="partials/fotografia.php">Fotografia</a></li>
+						<li data-from="left"><a href="partials/video.php">Video</a></li>
 					</ul>
 
 				</div>
