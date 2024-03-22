@@ -21,7 +21,7 @@
 
 				</div>
 
-				<section class="gallery">
+				<!-- <section class="gallery">
 					<div class="gallery-set container" id="web">
 						<a href="assets/img/morty/image-1.jpg">
 							<img src="assets/img/morty/thumb-1.jpg" height="192" width="383" alt="rick and morty">
@@ -45,7 +45,7 @@
 							<img src="assets/img/morty/thumb-7.jpg" height="192" width="383" alt="rick and morty">
 						</a>
 					</div>
-				</section>
+				</section> -->
 			</div>
 		</article>
 	</main>

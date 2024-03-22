@@ -21,7 +21,7 @@
 
 				</div>
 
-				<section class="gallery">
+				<!-- <section class="gallery">
 					<div class="gallery-set container" id="video">
 						<a href="assets/img/zim/image-1.jpg">
 							<img src="assets/img/zim/thumb-1.jpg" height="192" width="383" alt="space invader">
@@ -45,7 +45,7 @@
 							<img src="assets/img/zim/thumb-7.jpg" height="192" width="383" alt="space invader">
 						</a>
 					</div>
-				</section>
+				</section> -->
 			</div>
 		</article>
 	</main>

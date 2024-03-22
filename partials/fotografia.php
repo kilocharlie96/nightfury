@@ -21,7 +21,7 @@
 
 				</div>
 
-				<section class="gallery">
+				<!-- <section class="gallery">
 					<div class="gallery-set container" id="fotografia">
 						<a href="assets/img/dragon/image-1.jpg">
 							<img src="assets/img/dragon/thumb-1.jpg" height="192" width="383" alt="training dragons">
@@ -42,7 +42,7 @@
 							<img src="assets/img/dragon/thumb-6.jpg" height="192" width="383" alt="training dragons">
 						</a>
 					</div>
-				</section>
+				</section> -->
 			</div>
 		</article>
 	</main>

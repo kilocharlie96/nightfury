@@ -22,7 +22,9 @@
 
 				</div>
 
-				<section class="gallery">
+				<?php include 'partials/gallery.php' ?>
+
+				<!-- <section class="gallery">
 					<div class="gallery-set container" id="vsetko">
 						<a href="assets/img/samurai/image-1.jpg">
 							<img src="assets/img/samurai/thumb-1.jpg" height="192" width="383" alt="jackie boy">
@@ -43,7 +45,7 @@
 							<img src="assets/img/samurai/thumb-6.jpg" height="192" width="383" alt="jackie boy">
 						</a>
 					</div>
-				</section>
+				</section> -->
 			</div>
 		</article>
 	</main>
