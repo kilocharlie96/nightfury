@@ -7,8 +7,12 @@
         if($page == 'index'){
             $page = 'všetko';
         }
-        echo '<li><a href="'.$file.'">'.$page.'</a></li>';
 
+        if($page_name == $page){
+            echo '<li class="selected"><a href="' .$file. '">' .$page. '</a></li>';
+        } else {
+            echo '<li><a href="' .$file. '">' .$page. '</a></li>';
+        }
 	}
 
 ?>
