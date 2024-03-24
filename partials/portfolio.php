@@ -1,3 +1,5 @@
+<?php $pages = glob('*.php'); ?>
+
 <article>
 	<header class="post-header">
 		<div class="container">
@@ -22,9 +24,8 @@
 			</ul> -->
 			
 		</div>
-	<?php
 
-	$pages = glob('*.php');
+	<?php
 
 	foreach ( $pages as $file ){
 		$page = basename($file, '.php');
