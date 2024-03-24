@@ -1,7 +1,7 @@
-<?php include 'header.php'; ?>
+<?php include 'partials/header.php'; ?>
 
 <?php 
-	include 'portfolio.php'; 
+	include 'partials/portfolio.php'; 
 ?>
 
 <aside class="pre-footer">
@@ -18,7 +18,7 @@
 </div>
 </aside>
 
-<?php include 'footer.php'; ?>
+<?php include 'partials/footer.php'; ?>
 
 <!-- scripts -->
 <script src="assets/js/lightbox.js"></script>

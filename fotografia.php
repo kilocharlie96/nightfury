@@ -1,7 +1,7 @@
-<?php include 'header.php'; ?>
+<?php include 'partials/header.php'; ?>
 
 <?php 
-	include 'portfolio.php'; 
+	include 'partials/portfolio.php'; 
 ?>
 
 	<aside class="pre-footer">

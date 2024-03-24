@@ -44,7 +44,7 @@
 		if ($page_name == 'index') {
 			include 'gallery/gallery-vsetko.php';
 		} elseif ($page_name == 'web') {
-			include 'gallery/gallery-web.php';
+			include 'partials/gallery/gallery-web.php';
 		} elseif ($page_name == 'branding') {
 			include 'gallery/gallery-branding.php';
 		} elseif ($page_name == 'fotografia') {
