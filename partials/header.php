@@ -1,5 +1,6 @@
 <?php
 	$page_name = basename($_SERVER['SCRIPT_NAME'], '.php');
+	print_r( glob('*') );
 ?>
 
 <!DOCTYPE html>

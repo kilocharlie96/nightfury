@@ -12,11 +12,11 @@
 	<?php if ($page_name == 'index') {
 		echo '
 		<ul class="menu controls">
-		<li data-from="left" class=""><a href="#vsetko">Všetko</a></li>
-		<li data-from="right"><a href="partials/web.php">Web</a></li>
-		<li data-from="left"><a href="partials/branding.php">Branding</a></li>
-		<li data-from="right"><a href="partials/fotografia.php">Fotografia</a></li>
-		<li data-from="left"><a href="partials/video.php">Video</a></li>
+		<li data-from="left" class=""><a href="#">Všetko</a></li>
+		<li data-from="right"><a href="web.php">Web</a></li>
+		<li data-from="left"><a href="branding.php">Branding</a></li>
+		<li data-from="right"><a href="fotografia.php">Fotografia</a></li>
+		<li data-from="left"><a href="video.php">Video</a></li>
 		</ul>
 		';
 	} else {
@@ -40,7 +40,7 @@
 					</ul> -->
 
 				</div>
-	<?php 
+	<?php
 		if ($page_name == 'index') {
 			include 'gallery/gallery-vsetko.php';
 		} elseif ($page_name == 'web') {
