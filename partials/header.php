@@ -1,6 +1,6 @@
 <?php
 	$page_name = basename($_SERVER['SCRIPT_NAME'], '.php');
-	print_r( glob('*') );
+	// print_r( glob('*') );
 ?>
 
 <!DOCTYPE html>
@@ -10,22 +10,9 @@
 	<title>Nightfury</title>
 
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&amp;subset=latin,latin-ext">
-	
-	<?php if ($page_name == 'index') {
-		echo '
-		<link rel="stylesheet" href="assets/css/font-awesome.css">
-		<link rel="stylesheet" href="assets/css/normalize.css">
-		<link rel="stylesheet" href="assets/css/style.css">
-		';
-	} else {
-		echo '
-		<link rel="stylesheet" href="assets/css/font-awesome.css">
-		<link rel="stylesheet" href="assets/css/normalize.css">
-		<link rel="stylesheet" href="assets/css/style.css">
-		';
-	} ?>
-
-
+	<link rel="stylesheet" href="assets/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<script src="assets/js/jquery-2.1.1.min.js"></script>
