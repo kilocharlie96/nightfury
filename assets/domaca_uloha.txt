@@ -1,0 +1,5 @@
+DÚ#2
+-spravte z html stránky php stránku ✓
+-rozbite stránku na časti, ako uznáte za vhodné [ minimálne header.php, footer.php a portfolio.php ] ✓
+-pre každú sekciu v menu vytvorte samostatnú php podstránku [ čiže web.php, video.php, atď. ] ✓
+-zautomatizujte modré menu, aby bolo možné pridávať a odoberať galérie iba pridaním súboru, bez zásahu do html kódu, a aby vždy bol link aktuálne zobrazenej galérie označeý ✓
