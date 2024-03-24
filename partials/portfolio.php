@@ -21,17 +21,20 @@
 
 				</div>
 	<?php
-		if ($page_name == 'index') {
-			include 'gallery/gallery-vsetko.php';
-		} elseif ($page_name == 'web') {
-			include 'gallery/gallery-web.php';
-		} elseif ($page_name == 'branding') {
-			include 'gallery/gallery-branding.php';
-		} elseif ($page_name == 'fotografia') {
-			include 'gallery/gallery-fotografia.php';
-		} else {
-			include 'gallery/gallery-video.php';
+
+	$pages = glob('*.php');
+
+	foreach ( $pages as $file ){
+		$page = basename($file, '.php');
+
+		if($page_name == $page) {
+			if($page == 'index'){
+				$page = 'vsetko';
+			}
+			include 'partials/gallery/gallery-'.$page.'.php';
 		}
+	};
+	
 	?>
 
 			</div>
