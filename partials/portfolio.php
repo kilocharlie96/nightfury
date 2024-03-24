@@ -33,8 +33,8 @@
 			}
 			include 'partials/gallery/gallery-'.$page.'.php';
 		}
-	};
-	
+	}
+
 	?>
 
 			</div>
