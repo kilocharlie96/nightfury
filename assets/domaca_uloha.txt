@@ -3,3 +3,12 @@ DÚ#1
 -rozbite stránku na časti, ako uznáte za vhodné [ minimálne header.php, footer.php a portfolio.php ] ✓
 -pre každú sekciu v menu vytvorte samostatnú php podstránku [ čiže web.php, video.php, atď. ] ✓
 -zautomatizujte modré menu, aby bolo možné pridávať a odoberať galérie iba pridaním súboru, bez zásahu do html kódu, a aby vždy bol link aktuálne zobrazenej galérie označeý ✓
+
+DÚ#2
+
+-vytvorte súbor s nastaveniami / premennými, kde sa vyplnia texty, ktoré sa na stránke zobrazujú viac krát
+-dokončite ostatné podstránky stránky
+-nemajte všetky php súbory v root adresári ( možno partials adresár pre header a footer, samostatný adresár pre všetky tie portfólio podstránky s galériami )
+-zariaďte, aby všetky menu fungovali ( hlavné menu, menu vo footeri, menu na portfolio stránke )
+-zariaďte, aby <title> tag stránky zobrazoval kde sme ( názov podstránky / keď sme na portfolio podstránke, na ktorej gálerii konkrétne sme / názov stránky samotnej )
+-BONUS: majte niekde evidované aké linky majú byť v hlavnom menu, aby keď toto zmením, zmeny sa odrazili aj v menu v headeri aj malom menu vo footeri
